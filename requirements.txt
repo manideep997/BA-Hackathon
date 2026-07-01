@@ -1,0 +1,42 @@
+# Deep Learning
+torch>=2.0.0
+torchvision
+torchaudio
+pytorch-lightning
+
+# Spatial / Data Processing
+xarray
+netCDF4
+h5py
+numpy
+scipy
+opencv-python-headless
+scikit-image
+pandas
+
+# AWS & Cloud
+boto3
+s3fs
+
+# Backend API
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# Dashboard / Viz / Reports
+plotly
+matplotlib
+tensorboard
+
+# Code Quality & Testing
+pytest
+black
+flake8
+mypy
+
+# Utility
+python-dotenv
+pyyaml
+tqdm
+requests
