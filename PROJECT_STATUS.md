@@ -28,9 +28,9 @@ The AI agent shall update this document after every major implementation step.
 | Dataset Validation           | ✅ Complete |     100% |
 | Data Preprocessing           | ✅ Complete |     100% |
 | Training Dataset Generation  | ✅ Complete |     100% |
-| Model Selection              | ⏳ Pending |       0% |
-| Model Integration            | ⏳ Pending |       0% |
-| Model Training / Fine-Tuning | ⏳ Pending |       0% |
+| Model Selection              | ✅ Complete |     100% |
+| Model Integration            | ✅ Complete |     100% |
+| Model Training / Fine-Tuning | ✅ Complete |     100% |
 | Evaluation Pipeline          | ⏳ Pending |       0% |
 | INSAT Inference              | ⏳ Pending |       0% |
 | Dashboard Development        | ⏳ Pending |       0% |
@@ -44,7 +44,7 @@ The AI agent shall update this document after every major implementation step.
 
 # Current Active Phase
 
-**Phase:** Model Selection
+**Phase:** Evaluation Pipeline
 
 **Status:** In Progress
 
@@ -349,7 +349,7 @@ Example:
 | Environment   | Yes    | 2026-07-01 |
 | Dataset       | Yes    | 2026-07-01 |
 | Preprocessing | Yes    | 2026-07-01 |
-| Training      | No     | —    |
+| Training      | Yes    | 2026-07-01 |
 | Evaluation    | No     | —    |
 | Dashboard     | No     | —    |
 | Deployment    | No     | —    |
