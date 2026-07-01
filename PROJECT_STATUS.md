@@ -27,7 +27,7 @@ The AI agent shall update this document after every major implementation step.
 | Dataset Acquisition          | ✅ Complete |     100% |
 | Dataset Validation           | ✅ Complete |     100% |
 | Data Preprocessing           | ✅ Complete |     100% |
-| Training Dataset Generation  | ⏳ Pending |       0% |
+| Training Dataset Generation  | ✅ Complete |     100% |
 | Model Selection              | ⏳ Pending |       0% |
 | Model Integration            | ⏳ Pending |       0% |
 | Model Training / Fine-Tuning | ⏳ Pending |       0% |
@@ -44,7 +44,7 @@ The AI agent shall update this document after every major implementation step.
 
 # Current Active Phase
 
-**Phase:** Training Dataset Generation
+**Phase:** Model Selection
 
 **Status:** In Progress
 
