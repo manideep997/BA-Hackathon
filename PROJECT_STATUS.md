@@ -31,8 +31,8 @@ The AI agent shall update this document after every major implementation step.
 | Model Selection              | ✅ Complete |     100% |
 | Model Integration            | ✅ Complete |     100% |
 | Model Training / Fine-Tuning | ✅ Complete |     100% |
-| Evaluation Pipeline          | ⏳ Pending |       0% |
-| INSAT Inference              | ⏳ Pending |       0% |
+| Evaluation Pipeline          | ✅ Complete |     100% |
+| INSAT Inference              | ✅ Complete |     100% |
 | Dashboard Development        | ⏳ Pending |       0% |
 | Backend Development          | ⏳ Pending |       0% |
 | Frontend Development         | ⏳ Pending |       0% |
@@ -44,7 +44,7 @@ The AI agent shall update this document after every major implementation step.
 
 # Current Active Phase
 
-**Phase:** Evaluation Pipeline
+**Phase:** Backend Development
 
 **Status:** In Progress
 
@@ -350,7 +350,7 @@ Example:
 | Dataset       | Yes    | 2026-07-01 |
 | Preprocessing | Yes    | 2026-07-01 |
 | Training      | Yes    | 2026-07-01 |
-| Evaluation    | No     | —    |
+| Evaluation    | Yes    | 2026-07-01 |
 | Dashboard     | No     | —    |
 | Deployment    | No     | —    |
 
