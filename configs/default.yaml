@@ -1,0 +1,38 @@
+# Default Configuration
+
+project:
+  name: "Fill in the Frames Seamlessly"
+  version: "1.0.0"
+
+datasets:
+  base_dir: "datasets/"
+  goes_19:
+    bucket: "noaa-goes19"
+    product: "ABI-L2-CMIPF"
+    channel: 13
+  insat:
+    source: "mosdac"
+    channel: "TIR1"
+  himawari:
+    source: "jma"
+
+preprocessing:
+  output_resolution: [512, 512]
+  normalization_range: [-1.0, 1.0]
+  triplet_gap_minutes: 10
+
+training:
+  batch_size: 16
+  mixed_precision: true
+  learning_rate: 1e-4
+  epochs: 50
+  checkpoint_dir: "checkpoints/"
+  tensorboard_log_dir: "logs/tensorboard/"
+
+inference:
+  output_dir: "outputs/"
+  preserve_metadata: true
+
+dashboard:
+  port: 3000
+  api_url: "http://localhost:8000"

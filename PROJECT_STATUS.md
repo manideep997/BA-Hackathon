@@ -23,9 +23,9 @@ The AI agent shall update this document after every major implementation step.
 | Phase                        | Status    | Progress |
 | ---------------------------- | --------- | -------: |
 | Repository Initialization    | ✅ Complete |     100% |
-| Environment Setup            | ⏳ Pending |       0% |
-| Dataset Acquisition          | ⏳ Pending |       0% |
-| Dataset Validation           | ⏳ Pending |       0% |
+| Environment Setup            | ✅ Complete |     100% |
+| Dataset Acquisition          | ✅ Complete |     100% |
+| Dataset Validation           | ✅ Complete |     100% |
 | Data Preprocessing           | ⏳ Pending |       0% |
 | Training Dataset Generation  | ⏳ Pending |       0% |
 | Model Selection              | ⏳ Pending |       0% |
@@ -44,7 +44,7 @@ The AI agent shall update this document after every major implementation step.
 
 # Current Active Phase
 
-**Phase:** Environment Setup
+**Phase:** Data Preprocessing
 
 **Status:** In Progress
 
@@ -346,8 +346,8 @@ Example:
 | Phase         | Passed | Date |
 | ------------- | ------ | ---- |
 | Repository    | Yes    | 2026-07-01 |
-| Environment   | No     | —    |
-| Dataset       | No     | —    |
+| Environment   | Yes    | 2026-07-01 |
+| Dataset       | Yes    | 2026-07-01 |
 | Preprocessing | No     | —    |
 | Training      | No     | —    |
 | Evaluation    | No     | —    |
